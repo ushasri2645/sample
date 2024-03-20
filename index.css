@@ -1,0 +1,98 @@
+.back{
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;
+  min-width: 100vw;
+  width:100%;
+  background-color: lavender;
+}
+.main {
+  flex: 1; 
+}
+
+.footer {
+  flex-shrink: 0; 
+}
+.heading-1{
+  font-family: "Bree Serif";
+}
+.heading-3{
+  font-family: Roboto;
+}
+.table_list {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing:0 10px;
+  }
+.heading{
+  font-family: "Bree Serif";
+}
+th, td {
+  text-align: center;
+  padding:5px; 
+}
+th {
+  background-color: #f2f2f2;
+  border-radius:10px;
+}
+.delete-btn {
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width:45px;
+  height: 50px;
+}
+
+
+.add_item_input{
+  width:94%;
+  border-radius:5px;
+  border-width:0.5px; 
+  height:45px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+
+
+}
+.item_name_class{
+  width:94%;
+  border-radius:5px;
+  border-width:0.5px; 
+  height:40px;
+}
+.action{
+  height:45px;
+  width:6%;
+}
+
+
+.marked-class{
+    text-decoration: line-through;
+    background-color: lightgreen;
+    border-radius: 12PX;
+}
+
+td{
+  background-color: lightgray;
+  border-radius: 12px;
+}
+
+td.button_parent{
+  background-color: transparent;
+}
+.info_div{
+  margin-top:20px;
+  font-family: "Bree Serif";
+  padding:2px;
+  text-align: center;
+}
+.info{
+  margin-top:10px;
+  border : 3px solid lavenderblush;
+  border-radius:10px;
+
+}
+.items_section{
+  margin-top: 10px;
+}
